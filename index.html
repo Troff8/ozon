@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Progress</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="progress">
+        <div class="progress__title title">Progress</div>
+        <div class="progress__body">
+          <div class="progress__header">
+            <div class="circular-progress_active">
+              </div>
+              </div>
+              <div class="progress__wrapper-moves">
+                <div class="progress__moves">
+                  <div class="item-move">
+                    <input
+                      type="number"
+                      class="item-move__input"
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="item-move">
+                    <input type="checkbox" class="checkbox" id="box" />
+                    <label for="box"></label>
+                  </div>
+                  <div class="item-move">
+                    <input type="checkbox" class="checkbox" id="box2" />
+                    <label for="box2"></label>
+                  </div>
+                </div>
+                <div class="progress-text">
+                  <div class="progress-text__title">Value</div>
+                  <div class="progress-text__title">Animation</div>
+                  <div class="progress-text__title">Hide</div>
+                </div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
